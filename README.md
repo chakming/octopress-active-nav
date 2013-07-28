@@ -5,7 +5,8 @@ Add active class to navigation or menu in Octopress
 
 
 All you need to do is:
-- put in the nav.html `class="{% activenav /index.html %}"`
+- put the activenav.rb into **octopress plugins folder**
+- open your **header html file** and enter: `class="{% activenav /index.html %}"`
 - and it will render `class="active"` if accessing the homepage.
 
 ----
